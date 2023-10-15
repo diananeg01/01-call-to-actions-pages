@@ -7,9 +7,41 @@
   --light-green: #eff6f3;
   --light-grey: #f6f6f6;
   --white: #ffffff;
+
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 html {
   height: 100%;
   width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.menu-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.caption {
+  font-size: 12px;
 }
