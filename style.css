@@ -104,3 +104,32 @@ button[disabled] {
   width: 124px;
   height: 43px;
 }
+
+input {
+  display: flex;
+  width: 410px;
+  padding: 17px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--light-grey);
+  color: var(--grey);
+  border: 2px solid var(--light-grey);
+}
+
+input:hover {
+  border: 2px solid var(--green);
+}
+
+.btn-input {
+  display: flex;
+}
+
+.btn-input>input {
+  border-radius: 4px 0 0 4px;
+  border-width: 2px 0 2px 2px;
+}
+
+.btn-input>buton {
+  border-radius: 0 4px 4px 0;
+}
