@@ -21,6 +21,12 @@
   line-height: 22px;
 }
 
+body,
+h1,
+p {
+  margin: 0;
+}
+
 h1 {
   font-size: 50px;
   font-weight: 600;
